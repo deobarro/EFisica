@@ -1,0 +1,25 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/Inicio/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "framework": "jasmine",
+            "globals": "*",
+            "directory": "Inicio",
+            "name": "Inicio"
+        }
+    ],
+    "pageObjects": [],
+    "subjectUrl": "http://localhost:11080/EFisica"
+}
