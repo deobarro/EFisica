@@ -1,6 +1,7 @@
 describe("ComprobarPáginaUsandoElementos ", function() {
     it("Que se carga la función",function(){
-        var titulo= ST.element('h1[name="titulo"]')
+
+        ST.element('h1')
         .get("innerHTML")
         .and(function(){
             expect(this.future.data.innerHTML).toBe("EFisica");

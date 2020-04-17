@@ -18,6 +18,70 @@
             "globals": "*",
             "directory": "Inicio",
             "name": "Inicio"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/redireccionEliminarDatos/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "framework": "jasmine",
+            "globals": "*",
+            "directory": "redireccionEliminarDatos",
+            "name": "redireccionEliminarDatos"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/redireccionVerDatos/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "framework": "jasmine",
+            "globals": "*",
+            "directory": "redireccionVerDatos",
+            "name": "redireccionVerDatos"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/usoComboBox/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "framework": "jasmine",
+            "globals": "*",
+            "directory": "usoComboBox",
+            "name": "usoComboBox"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/redireccionInsertarDatos/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "framework": "jasmine",
+            "globals": "*",
+            "directory": "redireccionInsertarDatos",
+            "name": "redireccionInsertarDatos"
         }
     ],
     "pageObjects": [],
