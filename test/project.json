@@ -82,6 +82,22 @@
             "globals": "*",
             "directory": "redireccionInsertarDatos",
             "name": "redireccionInsertarDatos"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/tablaDinmica/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "framework": "jasmine",
+            "globals": "*",
+            "directory": "tablaDinmica",
+            "name": "tablaDinámica"
         }
     ],
     "pageObjects": [],
