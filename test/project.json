@@ -98,6 +98,22 @@
             "globals": "*",
             "directory": "tablaDinmica",
             "name": "tablaDinámica"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/redireccionVerDatos_Eventos/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "framework": "jasmine",
+            "globals": "*",
+            "directory": "redireccionVerDatos_Eventos",
+            "name": "redireccionVerDatos_Eventos"
         }
     ],
     "pageObjects": [],
